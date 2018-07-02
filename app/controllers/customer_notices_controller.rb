@@ -1,0 +1,2 @@
+class CustomerNoticesController < ApplicationController
+end

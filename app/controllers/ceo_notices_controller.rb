@@ -1,2 +1,0 @@
-class CeoNoticesController < ApplicationController
-end

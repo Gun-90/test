@@ -1,2 +1,0 @@
-class CeoNotice < ApplicationRecord
-end

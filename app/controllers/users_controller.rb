@@ -28,7 +28,7 @@ class UsersController < ApplicationController
     end
     
     def update
-        @user = User.update(params.require(:user).permit(:name, :email, :password, :password_confirmation),ceo: 0)
+        @user = User.update(params.require(:user).permit(:name, :email, :password, :password_confirmation))
     end
     
     def destroy

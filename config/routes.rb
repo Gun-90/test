@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+  get '/login', to: 'sessions#new'
+  post '/login', to: 'sessions#create'
+  delete '/logout', to: 'sessions#destroy'
+  
+  
   resources :reviews
   resources :users
   # get root, to: 'users#login', as: root

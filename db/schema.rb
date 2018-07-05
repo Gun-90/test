@@ -14,7 +14,7 @@ ActiveRecord::Schema.define(version: 2018_07_02_083233) do
 
   create_table "reviews", force: :cascade do |t|
     t.integer "user_id"
-    t.string "ceo_id"
+    t.string "ceo_name"
     t.string "truck_name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -23,7 +23,7 @@ ActiveRecord::Schema.define(version: 2018_07_02_083233) do
 
   create_table "users", force: :cascade do |t|
     t.string "name"
-    t.string "user_id"
+    t.string "email"
     t.string "password_digest"
     t.boolean "ceo"
     t.datetime "created_at", null: false

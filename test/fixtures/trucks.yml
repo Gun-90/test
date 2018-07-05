@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ceo_name: MyString
+  truck_name: MyString
+  user: 
+
+two:
+  ceo_name: MyString
+  truck_name: MyString
+  user: 

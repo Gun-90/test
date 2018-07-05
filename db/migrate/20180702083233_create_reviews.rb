@@ -5,7 +5,7 @@ class CreateReviews < ActiveRecord::Migration[5.2]
       t.string :ceo_name
       t.string :truck_name
       #위치
-      #
+    
 
       t.timestamps
     end
